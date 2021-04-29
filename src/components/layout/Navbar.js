@@ -6,7 +6,11 @@ const Navbar = () => {
         <React.Fragment>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container">
-    <li class="navbar-brand" to="/">React User</li>
+    {/* <li class="navbar-brand" to="#"></li> */}
+ 
+    <h3><Link style={{color:'#fff'}} className="nav-link" to="/">React User</Link></h3>
+   
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
